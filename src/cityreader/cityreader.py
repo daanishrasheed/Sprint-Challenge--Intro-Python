@@ -8,8 +8,8 @@ class City:
     self.lat = float(lat)
     self.lon = float(lon)
 
-def __repr__(self):
-  return f'City("{self.name}", {self.lat}, {self.lon})'
+  def __repr__(self):
+    return f'City("{self.name}", {self.lat}, {self.lon})'
 
 # We have a collection of US cities with population over 750,000 stored in the
 # file "cities.csv". (CSV stands for "comma-separated values".)
